@@ -22,8 +22,6 @@ def scan_ports(ip, startPort = 0, endPort = 1024):
 target_ip = input("Target's ip address: ")
 scan_ports(target_ip, 0, 80000)
 
-print("merhaba")
-
 
 
 
