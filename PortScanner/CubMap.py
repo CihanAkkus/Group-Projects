@@ -1,4 +1,5 @@
 import socket
+import threading
 
 def scan_port(ip, port):
     scanner = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
