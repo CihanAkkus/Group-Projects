@@ -19,6 +19,9 @@ def scan_ports(ip, startPort = 0, endPort = 1024):
         if scan_port(ip, port):
             print(f"Port {port} is open.")
 
+def Threading():
+    
+
 
 target_ip = input("Target's ip address: ")
 scan_ports(target_ip, 0, 80000)
