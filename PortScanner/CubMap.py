@@ -21,6 +21,7 @@ def scan_ports(ip, startPort = 0, endPort = 1024):
 
 def Threading():
     while True:
+        port =
         
 
 
