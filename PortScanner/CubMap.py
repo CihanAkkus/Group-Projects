@@ -20,7 +20,8 @@ def scan_ports(ip, startPort = 0, endPort = 1024):
             print(f"Port {port} is open.")
 
 def Threading():
-    while True
+    while True:
+        
 
 
 target_ip = input("Target's ip address: ")
